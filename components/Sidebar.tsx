@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 // FIX: Corrected import paths
 import { NavItemType, NavItem, NavGroup } from '../types';
@@ -89,8 +90,8 @@ const Sidebar: React.FC<SidebarProps> = ({ activeModule, setActiveModule }) => {
       <aside className={`bg-white w-72 min-h-screen flex flex-col border-r border-gray-200 p-4 transform ${isMobileOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 fixed md:relative z-20 transition-transform duration-300 ease-in-out`}>
         <div className="flex items-center justify-start mb-6 px-2">
            <div className="text-gray-600">
-              <h1 className="text-2xl font-bold text-primary tracking-tight">CV efectiva</h1>
-              <p className="text-sm text-gray-500 -mt-1">Red de RH</p>
+              <h1 className="text-xl font-bold text-primary tracking-tight leading-tight">HR Management</h1>
+              <p className="text-xs text-gray-500 font-medium">Dashboard</p>
             </div>
         </div>
         <nav className="flex-1 overflow-y-auto pr-2">
